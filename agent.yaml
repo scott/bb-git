@@ -1,0 +1,24 @@
+name: bb-git
+version: 1.1.0
+description: bbdesc
+brain:
+  model: openrouter/openai/gpt-4o
+  model_override: null
+  instructions_file: bb-prompt.md
+harness:
+  permissions:
+    bash: ask
+  principles:
+    - P2
+tools:
+  builtin:
+    - bash
+    - read
+  mcp: []
+  custom: []
+runtime:
+  python_version: "3.12"
+  requirements: []
+repository:
+  remote: origin
+  branch: main

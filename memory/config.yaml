@@ -1,0 +1,20 @@
+memory:
+  enabled: true
+  categories:
+  - learned
+  - decision
+  - pattern
+  - error_learned
+  - accomplishment
+  - preference
+  - context
+  - project
+  - tools_used
+  - boundary
+  - relationship
+  - todo
+  - question_asked
+  - directive_given
+  max_per_category: 100
+  relevance_threshold: 0.7
+  reflection_model: null
